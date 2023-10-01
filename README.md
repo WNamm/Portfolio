@@ -1,6 +1,6 @@
 # William Namm's Portfolio
 This is a portfolio that showcases code written by William Namm.  The scripts are organized into folders according to the project, course, etc. for which they were written.  Descriptions of each folder's contents can be found below.  There is also work in other repositories; links to these and descriptions are located further down.
-## GRN_AML_Pipeline_Test
+## Moffitt_GRN_AML_Pipeline_Test
 **Testing the Accuracy of SJARACNe and NetBID2 Pipeline with Data on Acute Myeloid Leukemia**
 
 This project was completed during an internship at Moffitt Cancer Center in Tampa, Florida.  It was done under the mentorship of Dr. Timothy Shaw during the fall of 2021.  It involves gene regulatory networks (GRN) and data from patients with Acute Myeloid Leukemia (AML).  The purpose of the project was to test the accuracy of a pipeline that utilized both SJARACNe and NetBID2 to determine the activity of certain driver genes.  These drivers are known to be important in the oncogenesis of AML.
