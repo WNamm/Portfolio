@@ -1,4 +1,4 @@
-/*This code can creat various plots and a table of Jackknife residuals, labeled as Rstudent by SAS.*/
+/*This code can create various plots and a table of Jackknife residuals, labeled as Rstudent by SAS.*/
 libname inputs "C:\Users\WNamm\Documents\SAS_docs\SAS_Inputs";
 proc reg data = inputs.ch05q01;
 model LOGDRYWG = AGE / influence;
