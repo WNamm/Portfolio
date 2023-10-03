@@ -10,6 +10,8 @@ Starting with a gene expression matrix (n=1,376), the data was randomly subsampl
 This project was done using R and Bash.  Early parts were done on the command line with Ubuntu (from the start to using NetBID2) and later parts were completed using RStudio (box plot generation).  A report was written that was over 6,000 words, and an oral presentation with a slideshow was given as well.
 
 SJARACNe and NetBID2 are available at https://github.com/jyyulab/SJARACNe and https://github.com/jyyulab/NetBID, respectively.
+## USF_Python_Course
+This is a collection of Python scripts written for a programming course at the University of South Florida in the spring of 2020.  Three of these scripts were homework assignments (HW1_CarDealer, HW2_Inventory, and HW3_Sales), and are longer and more complex than the other three, which were simpler exercises.
 ## Code in Other Repositories
 Some projects and other work for showcase are located in other repositories on GitHub.  These are listed below, with links to their repositories and descriptions of the work.
 ### USF OneHealth Codeathon 2022 &mdash; Automating Meta-Analyses
