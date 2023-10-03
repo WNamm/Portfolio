@@ -1,0 +1,10 @@
+libname Mod2q5 "C:\Users\WNamm\Documents\SAS_docs\mod2ch5q5";
+	data voted;
+	if _N_=1 then TVEXP=36.99;output;
+	set Mod2q5.ch05q05;
+	run;
+	proc reg data = voted;
+	model VOTE = TVEXP/STB CLB clm;
+	output out=reg_out2 lclm=lower uclm=upper;
+run;
+quit;

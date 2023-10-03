@@ -1,0 +1,10 @@
+libname test1 "C:\Users\WNamm\Documents\SAS_docs\SAS_Inputs\test1";
+data Y_CI;
+if _N_=1 then X=30; output;
+set test1.exam1b;
+run;
+proc reg data = Y_CI;
+model Y=X/STB CLB clm;
+output out=clm_out lclm=lclm_out uclm=uclm_out;
+run;
+quit;
