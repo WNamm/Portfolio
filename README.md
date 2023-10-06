@@ -17,8 +17,7 @@ This is a collection of SAS scripts written for the Biostatistics II course at t
 ## Code in Other Repositories
 Some projects and other work for showcase are located in other repositories on GitHub.  These are listed below, with links to their repositories and descriptions of the work.
 ### USF OneHealth Codeathon 2022 &mdash; Automating Meta-Analyses
-**Tool for Automating Meta-Analyses of Treatments for Rare Diseases**
-**Won Second Place**
+**Tool for Automating Meta-Analyses of Treatments for Rare Diseases &mdash; Won Second Place**
 
 https://github.com/USFOneHealthCodeathon2022/Topic1_TeamA
 
