@@ -18,6 +18,7 @@ This is a collection of SAS scripts written for the Biostatistics II course at t
 Some projects and other work for showcase are located in other repositories on GitHub.  These are listed below, with links to their repositories and descriptions of the work.
 ### USF OneHealth Codeathon 2022 &mdash; Automating Meta-Analyses
 **Tool for Automating Meta-Analyses of Treatments for Rare Diseases**
+**Won Second Place**
 
 https://github.com/USFOneHealthCodeathon2022/Topic1_TeamA
 
@@ -26,3 +27,14 @@ This team project was created for the annual USF OneHealth Codeathon.  The codea
 My team created a software tool that can provide meta-analysis data on groups of studies that show the effects of a certain treatment on a certain disease.  It involves a GUI that contains input fields for the disease and treatment in question.  There are also output fields: one displays a forest plot of the meta-analysis results, and the other summarizes this data with various statistics.  The team used data from nine clinical trials on treatments for lymphangioleiomyomatosis (LAM) as sample data for the meta-analysis.  The GUI currently displays the forest plot and summary for this sample data automatically.  The original plan was to use the input fields to query the AACT database for ClinicalTrials.gov, and then use the resulting data in the meta-analysis.  That way, the user could get a forest plot for clinical trials on any disease they search on.  However, this query portion of the project could not be completed during the three-day codeathon due to the time constraints.
 
 My contribution to the team's project was to create the code for calculating the meta-analysis in the background.  I created an R package that could create the forest plot from input data.  It does so by utilizing the Meta package.  Then, I added the function I wrote to the R markdown code for the GUI so that it would create a forest plot and the summary statistics using the LAM data.
+### ProteinAnalyst
+**R Package**
+
+https://github.com/WNamm/ProteinAnalyst
+
+This R package was created as a final project for the R Programming Course at the University of South Florida in the spring of 2021.  The package contains several functions that can be used to analyze the amino acid content of protein sequences in given fasta-format text files.  These functions can count the amino acids by all 20 types, sort them into broader categories, and display this information as lists, data frames, or bar graphs.
+### USF R Programming
+
+https://github.com/WNamm/USF_R_Programming
+
+This repository contains assignments from the R Programming course at the University of South Florida, taken in the spring of 2021.  Alongside writing R scripts for the course, I also wrote blog posts describing what I learned.  These blog posts can be found at https://journeythroughr.wordpress.com/.
